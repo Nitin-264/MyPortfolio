@@ -3,3 +3,17 @@
 @media(max-width:850px){.hero{grid-template-columns:1fr;gap:15px;padding-top:70px}.hero-copy{max-width:650px}.hero-visual{min-height:390px;margin-top:10px}.scroll-cue{display:none}.about-grid{gap:35px}.project-art{height:220px}.nav-links{gap:18px}.hero h1{font-size:58px}.chip-top{right:8%}.chip-bottom{left:5%}}
 @media(max-width:640px){.section-wrap,.topbar,.footer{width:calc(100% - 36px)}.topbar{height:70px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:62px;left:0;right:0;background:#11182b;border:1px solid var(--border);border-radius:12px;padding:18px;flex-direction:column;align-items:stretch;gap:17px}.nav-links.open{display:flex}.nav-cta{text-align:center}.hero{padding-top:55px;min-height:0;padding-bottom:65px}.hero h1{font-size:43px;letter-spacing:-2.4px}.hero-intro{font-size:13px}.hero-meta{gap:10px;flex-wrap:wrap;margin-top:32px}.hero-meta b{font-size:12px}.hero-meta span{font-size:9px}.hero-visual{min-height:340px}.code-window{width:100%;transform:none}.code-content{font-size:8px;padding:17px 8px}.line-no{width:20px;margin-right:8px}.float-chip{padding:8px 10px}.chip-top{top:2px;right:0}.chip-bottom{bottom:5px;left:0}.chip-icon{width:27px;height:27px}.float-chip b{font-size:9px}.float-chip small{font-size:8px}.orbit-a{width:290px;height:220px}.orbit-b{height:350px;width:250px}.section-block{padding-top:68px}.section-heading h2{font-size:32px}.about-grid,.skill-groups,.project-grid{grid-template-columns:1fr}.about-grid{gap:25px}.skill-card{min-height:0}.project-heading{align-items:start;flex-direction:column}.project-count{padding:0}.project-art{height:230px}.project-body>p{min-height:0}.timeline-item{grid-template-columns:1fr;gap:7px;padding-bottom:27px}.timeline-date{padding:0}.contact-section{margin-top:55px}.contact-inner{padding-top:65px;padding-bottom:65px}.contact-inner h2{font-size:38px}.footer{padding:20px 0;flex-wrap:wrap}.footer>span{order:3;width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+
+
+/* Quick alignment adjustments for skill and contact tags with icons */
+.tags span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.contact-actions .button i,
+.contact-actions .button svg {
+  vertical-align: middle;
+  flex-shrink: 0;
+}
